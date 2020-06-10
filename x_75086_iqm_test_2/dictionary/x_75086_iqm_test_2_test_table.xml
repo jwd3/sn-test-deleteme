@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Test Table" max_length="40" name="x_75086_iqm_test_2_test_table" sizeclass="1" text_index="true" type="collection">
+    <element extends="task" label="Test Table" max_length="40" name="x_75086_iqm_test_2_test_table" text_index="true" type="collection">
         <element label="String" max_length="40" name="string" type="string"/>
         <element label="User Reference" max_length="32" name="user_reference" reference="sys_user" type="reference"/>
     </element>
