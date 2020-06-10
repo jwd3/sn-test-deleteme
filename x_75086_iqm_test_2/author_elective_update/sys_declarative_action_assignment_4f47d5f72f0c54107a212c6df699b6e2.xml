@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="DELETE">
+        <action/>
+        <action_attributes>{}</action_attributes>
+        <action_name>receiver-deux</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_type>action_component</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <enabled>true</enabled>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_position>related_item</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Receiver Deux</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>100</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <server_script/>
+        <specificity>22</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 05:08:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f47d5f72f0c54107a212c6df699b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>receiver-deux</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_4f47d5f72f0c54107a212c6df699b6e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:08:56</sys_updated_on>
+        <table>x_75086_iqm_test_2_test_table</table>
+        <tooltip/>
+        <ui_component display_value="x-75086-receiver-deux">8c3452749abac6382d6e5057138846b4</ui_component>
+        <view/>
+        <workspace display_value="IQM Test 2">282c05ff2fc854107a212c6df699b6e8</workspace>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="DELETE" query="documentkey=4f47d5f72f0c54107a212c6df699b6e2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</application>
+        <file_path/>
+        <instance_id>0145d06fdbe204d04d2bac44d496194d</instance_id>
+        <instance_name>dev98403</instance_name>
+        <name>sys_declarative_action_assignment_4f47d5f72f0c54107a212c6df699b6e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment"><sys_declarative_action_assignment action="INSERT_OR_UPDATE"><action/><action_attributes>{}</action_attributes><action_name>receiver-deux</action_name><action_payload/><action_type>type</action_type><active>true</active><button_type>primary</button_type><client_action/><client_conditions/><client_conditions_on_fields/><confirmation_message/><confirmation_required>false</confirmation_required><create_access>false</create_access><declarative_action_type>action_component</declarative_action_type><delete_access>false</delete_access><dependency/><description/><design_icon/><enabled>true</enabled><field_name/><field_type>glide_date</field_type><form_position>related_item</form_position><group/><group_by>false</group_by><icon/><label>Receiver Deux</label><model display_value="Form">360935e9534723003eddddeeff7b127d</model><model_conditions/><model_field_required/><order>100</order><payload_map/><read_access>false</read_access><record_conditions/><record_selection_required>false</record_selection_required><required_roles/><requires_value>false</requires_value><script_condition/><server_script/><specificity>22</specificity><sys_class_name>sys_declarative_action_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-15 05:08:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4f47d5f72f0c54107a212c6df699b6e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>receiver-deux</sys_name><sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package><sys_policy/><sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope><sys_update_name>sys_declarative_action_assignment_4f47d5f72f0c54107a212c6df699b6e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-15 05:08:56</sys_updated_on><table>x_75086_iqm_test_2_test_table</table><tooltip/><ui_component display_value="x-75086-receiver-deux">8c3452749abac6382d6e5057138846b4</ui_component><view/><workspace display_value="IQM Test 2">282c05ff2fc854107a212c6df699b6e8</workspace><write_access>false</write_access></sys_declarative_action_assignment><sys_translated_text action="delete_multiple" query="documentkey=4f47d5f72f0c54107a212c6df699b6e2"/></record_update>]]></payload>
+        <payload_hash>-1111905792</payload_hash>
+        <record_name>receiver-deux</record_name>
+        <reverted_from/>
+        <source>395b4dbf2fc854107a212c6df699b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 05:08:56</sys_created_on>
+        <sys_id>1d77d9f72f0c54107a212c6df699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1717c3d7bfd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:08:56</sys_updated_on>
+        <type>Action Assignment</type>
+        <update_guid>5577d9f73a0c5410bb0592e26604d738</update_guid>
+        <update_guid_history>5577d9f73a0c5410bb0592e26604d738:-1111905792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-28 04:50:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_assignment">sys_declarative_action_assignment</sys_db_object>
+        <sys_id>25d3ffe3bef246aea54b17d362602211</sys_id>
+        <sys_metadata>4f47d5f72f0c54107a212c6df699b6e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>receiver-deux</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_scope_delete display_value="">4fab5431129d41609ec122bc5e95e400</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_assignment_4f47d5f72f0c54107a212c6df699b6e2</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_assignment_4f47d5f72f0c54107a212c6df699b6e2">1d77d9f72f0c54107a212c6df699b638</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-28 04:50:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

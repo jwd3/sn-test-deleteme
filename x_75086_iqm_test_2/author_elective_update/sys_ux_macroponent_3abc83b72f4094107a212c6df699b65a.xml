@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckjjbbdwkddggaaaaaaccddhhhlqeedffjiiddg",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91dwk3700033h7l676gocl0",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e1swj000a3h7lw3axq0ln","size":"12","rows":[],"id":"ck91e1swj000c3h7lodlcfudx"}],"id":"ck91e1swj000b3h7ln2kjiaht"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbebbswjaaaaaajjddhhhlsdbbxeeaaeer",
+      "elementLabel" : "Rich Text",
+      "propertyValues" : {
+        "html" : "&lt;p&gt;The quick brown fox jumps over the lazy dog&lt;/p&gt;"
+      },
+      "slot" : "ck91e1swj000a3h7lw3axq0ln",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjbbeaaggmmaaaaaaccddhhhlbbndmkwys",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91e06mm00033h7lumd7hba6",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e1r0200053h7l9icm1fuq","size":"12","rows":[],"id":"ck91e1r0200073h7ljgn8dles"}],"id":"ck91e1r0200063h7ln1ita38p"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbebbraabbaaaaaaeeddhhhloexnvffdw",
+      "elementLabel" : "Heading",
+      "propertyValues" : {
+        "label" : "The quick brown fox jumps over the lazy dog",
+        "variant" : "header-primary",
+        "wontWrap" : false,
+        "hasNoMargin" : false
+      },
+      "slot" : "ck91e1r0200053h7l9icm1fuq",
+      "definition" : {
+        "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjbbeddeyeaaaaaaddddhhhlcxtimaggee",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91e3eye00043h7le0t3b26q",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e3p8z000e3h7losi50d6e","size":"12","rows":[],"id":"ck91e3p8z000g3h7lhzllmk2s"}],"id":"ck91e3p8z000f3h7lspuw46kq"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbeddpiizaaaaaadddhhhljqeeknklbb",
+      "elementLabel" : "Emitter Part Deux",
+      "propertyValues" : { },
+      "slot" : "ck91e3p8z000e3h7losi50d6e",
+      "definition" : {
+        "id" : "44ae016bebed3946f64983e87e08abc1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjbbeddleedaaaaaaiiddhhhlaalccsqdhhe",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91e3l4d00093h7lv0clk707",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e3rn2000j3h7la7lo7l6x","size":"12","rows":[],"id":"ck91e3rn2000l3h7lvzm8mh6j"}],"id":"ck91e3rn2000k3h7ln5wgtueu"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbeddrnccaaaaaaiddhhhlvjyddebbx",
+      "elementLabel" : "Receiver Part Deux",
+      "propertyValues" : { },
+      "slot" : "ck91e3rn2000j3h7la7lo7l6x",
+      "definition" : {
+        "id" : "f97a8c38f9ae90af6e94c6a0a4177f5a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"column","id":"ck91e3eyf00063h7l4spv3y9a","size":"12","rows":[{"type":"row","id":"ck91dwk3700043h7lbkxbaajh","columns":[{"type":"column","id":"ck91e06mn00043h7lpjfckkax","slotName":"ck91e06mm00033h7lumd7hba6","size":"6"},{"type":"column","id":"ck91e0bqr00063h7lxpncdnrk","slotName":"ck91dwk3700033h7l676gocl0","size":"6"}]},{"id":"ck91e3l4e000b3h7l7u1gb504","type":"row","columns":[{"type":"column","id":"ck91e3eyf00053h7lfbniy435","slotName":"ck91e3eye00043h7le0t3b26q","size":"6"},{"type":"column","slotName":"ck91e3l4d00093h7lv0clk707","id":"ck91e3l4e000a3h7l2u43qaqe","size":"6"}]}]}
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>IQM2 Test</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:41:19</sys_created_on>
+        <sys_id>3abc83b72f4094107a212c6df699b65a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>IQM2 Test</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_ux_macroponent_3abc83b72f4094107a212c6df699b65a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:48:02</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</application>
+        <file_path/>
+        <instance_id>0145d06fdbe204d04d2bac44d496194d</instance_id>
+        <instance_name>dev98403</instance_name>
+        <name>sys_ux_macroponent_3abc83b72f4094107a212c6df699b65a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><component_dependencies/><composition>[ {
+  "elementId" : "ckjjbbdwkddggaaaaaaccddhhhlqeedffjiiddg",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91dwk3700033h7l676gocl0",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e1swj000a3h7lw3axq0ln","size":"12","rows":[],"id":"ck91e1swj000c3h7lodlcfudx"}],"id":"ck91e1swj000b3h7ln2kjiaht"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbebbswjaaaaaajjddhhhlsdbbxeeaaeer",
+      "elementLabel" : "Rich Text",
+      "propertyValues" : {
+        "html" : "&lt;p&gt;The quick brown fox jumps over the lazy dog&lt;/p&gt;"
+      },
+      "slot" : "ck91e1swj000a3h7lw3axq0ln",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjbbeaaggmmaaaaaaccddhhhlbbndmkwys",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91e06mm00033h7lumd7hba6",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e1r0200053h7l9icm1fuq","size":"12","rows":[],"id":"ck91e1r0200073h7ljgn8dles"}],"id":"ck91e1r0200063h7ln1ita38p"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbebbraabbaaaaaaeeddhhhloexnvffdw",
+      "elementLabel" : "Heading",
+      "propertyValues" : {
+        "label" : "The quick brown fox jumps over the lazy dog",
+        "variant" : "header-primary",
+        "wontWrap" : false,
+        "hasNoMargin" : false
+      },
+      "slot" : "ck91e1r0200053h7l9icm1fuq",
+      "definition" : {
+        "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjbbeddeyeaaaaaaddddhhhlcxtimaggee",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91e3eye00043h7le0t3b26q",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e3p8z000e3h7losi50d6e","size":"12","rows":[],"id":"ck91e3p8z000g3h7lhzllmk2s"}],"id":"ck91e3p8z000f3h7lspuw46kq"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbeddpiizaaaaaadddhhhljqeeknklbb",
+      "elementLabel" : "Emitter Part Deux",
+      "propertyValues" : { },
+      "slot" : "ck91e3p8z000e3h7losi50d6e",
+      "definition" : {
+        "id" : "44ae016bebed3946f64983e87e08abc1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjbbeddleedaaaaaaiiddhhhlaalccsqdhhe",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck91e3l4d00093h7lv0clk707",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck91e3rn2000j3h7la7lo7l6x","size":"12","rows":[],"id":"ck91e3rn2000l3h7lvzm8mh6j"}],"id":"ck91e3rn2000k3h7ln5wgtueu"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjbbeddrnccaaaaaaiddhhhlvjyddebbx",
+      "elementLabel" : "Receiver Part Deux",
+      "propertyValues" : { },
+      "slot" : "ck91e3rn2000j3h7la7lo7l6x",
+      "definition" : {
+        "id" : "f97a8c38f9ae90af6e94c6a0a4177f5a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+} ]</composition><data/><events/><extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends><interactions/><layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"column","id":"ck91e3eyf00063h7l4spv3y9a","size":"12","rows":[{"type":"row","id":"ck91dwk3700043h7lbkxbaajh","columns":[{"type":"column","id":"ck91e06mn00043h7lpjfckkax","slotName":"ck91e06mm00033h7lumd7hba6","size":"6"},{"type":"column","id":"ck91e0bqr00063h7lxpncdnrk","slotName":"ck91dwk3700033h7l676gocl0","size":"6"}]},{"id":"ck91e3l4e000b3h7l7u1gb504","type":"row","columns":[{"type":"column","id":"ck91e3eyf00053h7lfbniy435","slotName":"ck91e3eye00043h7le0t3b26q","size":"6"},{"type":"column","slotName":"ck91e3l4d00093h7lv0clk707","id":"ck91e3l4e000a3h7l2u43qaqe","size":"6"}]}]}
+  }
+}</layout><macroponent_dependencies/><name>IQM2 Test</name><props/><root_component/><root_component_config/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-15 13:41:19</sys_created_on><sys_id>3abc83b72f4094107a212c6df699b65a</sys_id><sys_mod_count>4</sys_mod_count><sys_name>IQM2 Test</sys_name><sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package><sys_policy/><sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope><sys_update_name>sys_ux_macroponent_3abc83b72f4094107a212c6df699b65a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-15 13:48:02</sys_updated_on></sys_ux_macroponent></record_update>]]></payload>
+        <payload_hash>-116389552</payload_hash>
+        <record_name>IQM2 Test</record_name>
+        <reverted_from/>
+        <source>395b4dbf2fc854107a212c6df699b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:48:02</sys_created_on>
+        <sys_id>d14e87f72f4094107a212c6df699b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1717e18bcde0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:48:02</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>5d4e87f7c040941099209f37e12010dd</update_guid>
+        <update_guid_history>5d4e87f7c040941099209f37e12010dd:-116389552,7eed83f7e6409410b1d51b597bea5930:-249966068,92ad0fb7c6409410760519522b208ef9:-873240110,270d47b716409410a2fedfa327d63ec8:1060602271,bebc83b71a409410a9ffcc8718790c5c:2013002457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-23 06:55:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>180701c4378545bc90e54e4ca87dfb84</sys_id>
+        <sys_metadata>3abc83b72f4094107a212c6df699b65a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IQM2 Test</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_scope_delete display_value="">4fab5431129d41609ec122bc5e95e400</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_3abc83b72f4094107a212c6df699b65a</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_3abc83b72f4094107a212c6df699b65a">d14e87f72f4094107a212c6df699b6de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-23 06:55:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

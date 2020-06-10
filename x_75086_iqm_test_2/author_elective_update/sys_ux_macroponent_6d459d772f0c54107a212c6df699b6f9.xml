@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckjjaaviijjhccaaaaaaccddhhhljjrbjpddhq",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90v89h300033h7l2bga154m",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck90v8f2f000c3h7lfst1zc2v","size":"12","rows":[],"id":"ck90v8f2f000e3h7lwilckwev"}],"id":"ck90v8f2f000d3h7lccp92ylz"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjaaviifccfaaaaaabddhhhlptiivcczggl",
+      "elementLabel" : "Emitter Part Deux",
+      "propertyValues" : { },
+      "slot" : "ck90v8f2f000c3h7lfst1zc2v",
+      "definition" : {
+        "id" : "44ae016bebed3946f64983e87e08abc1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjaaviiclddaaaaaahhddhhhlttfeeeezrbb",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90v8cl400083h7laf1jg8av",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"row","id":"ck90v89h300043h7lwp60wtp8","columns":[{"type":"column","id":"ck90v89h300053h7le1drhvuf","slotName":"ck90v89h300033h7l2bga154m","size":"6"},{"type":"column","slotName":"ck90v8cl400083h7laf1jg8av","id":"ck90v8cl400093h7lpug98txs","size":"6"}]}
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>IQM Test 2 LP</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 04:59:24</sys_created_on>
+        <sys_id>6d459d772f0c54107a212c6df699b6f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IQM Test 2 LP</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6d459d772f0c54107a212c6df699b6f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:00:03</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</application>
+        <file_path/>
+        <instance_id>0145d06fdbe204d04d2bac44d496194d</instance_id>
+        <instance_name>dev98403</instance_name>
+        <name>sys_ux_macroponent_6d459d772f0c54107a212c6df699b6f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><component_dependencies/><composition>[ {
+  "elementId" : "ckjjaaviijjhccaaaaaaccddhhhljjrbjpddhq",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90v89h300033h7l2bga154m",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ck90v8f2f000c3h7lfst1zc2v","size":"12","rows":[],"id":"ck90v8f2f000e3h7lwilckwev"}],"id":"ck90v8f2f000d3h7lccp92ylz"}
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjjaaviifccfaaaaaabddhhhlptiivcczggl",
+      "elementLabel" : "Emitter Part Deux",
+      "propertyValues" : { },
+      "slot" : "ck90v8f2f000c3h7lfst1zc2v",
+      "definition" : {
+        "id" : "44ae016bebed3946f64983e87e08abc1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjjaaviiclddaaaaaahhddhhhlttfeeeezrbb",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90v8cl400083h7laf1jg8av",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition><data/><events/><extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends><interactions/><layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"row","id":"ck90v89h300043h7lwp60wtp8","columns":[{"type":"column","id":"ck90v89h300053h7le1drhvuf","slotName":"ck90v89h300033h7l2bga154m","size":"6"},{"type":"column","slotName":"ck90v8cl400083h7laf1jg8av","id":"ck90v8cl400093h7lpug98txs","size":"6"}]}
+  }
+}</layout><macroponent_dependencies/><name>IQM Test 2 LP</name><props/><root_component/><root_component_config/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-15 04:59:24</sys_created_on><sys_id>6d459d772f0c54107a212c6df699b6f9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>IQM Test 2 LP</sys_name><sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package><sys_policy/><sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope><sys_update_name>sys_ux_macroponent_6d459d772f0c54107a212c6df699b6f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-15 05:00:03</sys_updated_on></sys_ux_macroponent></record_update>]]></payload>
+        <payload_hash>-906705535</payload_hash>
+        <record_name>IQM Test 2 LP</record_name>
+        <reverted_from/>
+        <source>395b4dbf2fc854107a212c6df699b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 05:00:03</sys_created_on>
+        <sys_id>436551b72f0c54107a212c6df699b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1717c3559c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:00:03</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>cb6551b7b50c54106ea979cc9899b879</update_guid>
+        <update_guid_history>cb6551b7b50c54106ea979cc9899b879:-906705535,e1459d77550c5410919725f200060afb:-2043776359</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 05:02:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>3879db5d808149eea0f3db0921b99e99</sys_id>
+        <sys_metadata>6d459d772f0c54107a212c6df699b6f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IQM Test 2 LP</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_scope_delete display_value="">4fab5431129d41609ec122bc5e95e400</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_6d459d772f0c54107a212c6df699b6f9</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_6d459d772f0c54107a212c6df699b6f9">436551b72f0c54107a212c6df699b67a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:02:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

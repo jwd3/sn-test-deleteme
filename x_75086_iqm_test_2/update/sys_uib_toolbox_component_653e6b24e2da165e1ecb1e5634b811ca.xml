@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <description>Member Search</description>
+        <icon>magnifying-glass-outline</icon>
+        <label>Member Search</label>
+        <macroponent display_value="Member Search">0cade75ab2612f848063bf947d23f89d</macroponent>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-28 13:43:08</sys_created_on>
+        <sys_id>653e6b24e2da165e1ecb1e5634b811ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Member Search</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_653e6b24e2da165e1ecb1e5634b811ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-28 13:43:08</sys_updated_on>
+    </sys_uib_toolbox_component>
+</record_update>

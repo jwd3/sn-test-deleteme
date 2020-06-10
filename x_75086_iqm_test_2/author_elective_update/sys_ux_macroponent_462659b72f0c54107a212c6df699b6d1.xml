@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckjjaavdddffiiaaaaaaccddhhhlnriicclmhgg",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90vd35900033h7l61hor1n7",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckjjaavdfxgaaaaaajddhhhlghtpljjsn",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90vdfxh000k3h7lrkcrku03",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"row","id":"ck90vd35900043h7ly7bst0kn","columns":[{"type":"column","slotName":"ck90vdfxh000k3h7lrkcrku03","id":"ck90vdfxh000l3h7l7ozh6e6o","size":"6"},{"type":"column","id":"ck90vd35900053h7lcan3j8wv","slotName":"ck90vd35900033h7l61hor1n7","size":"6"}]}
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>iqm 2</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 05:03:15</sys_created_on>
+        <sys_id>462659b72f0c54107a212c6df699b6d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>iqm 2</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_ux_macroponent_462659b72f0c54107a212c6df699b6d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:05:05</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</application>
+        <file_path/>
+        <instance_id>0145d06fdbe204d04d2bac44d496194d</instance_id>
+        <instance_name>dev98403</instance_name>
+        <name>sys_ux_macroponent_462659b72f0c54107a212c6df699b6d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><component_dependencies/><composition>[ {
+  "elementId" : "ckjjaavdddffiiaaaaaaccddhhhlnriicclmhgg",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90vd35900033h7l61hor1n7",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckjjaavdfxgaaaaaajddhhhlghtpljjsn",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck90vdfxh000k3h7lrkcrku03",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition><data/><events/><extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends><interactions/><layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"row","id":"ck90vd35900043h7ly7bst0kn","columns":[{"type":"column","slotName":"ck90vdfxh000k3h7lrkcrku03","id":"ck90vdfxh000l3h7l7ozh6e6o","size":"6"},{"type":"column","id":"ck90vd35900053h7lcan3j8wv","slotName":"ck90vd35900033h7l61hor1n7","size":"6"}]}
+  }
+}</layout><macroponent_dependencies/><name>iqm 2</name><props/><root_component/><root_component_config/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-15 05:03:15</sys_created_on><sys_id>462659b72f0c54107a212c6df699b6d1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>iqm 2</sys_name><sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package><sys_policy/><sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope><sys_update_name>sys_ux_macroponent_462659b72f0c54107a212c6df699b6d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-15 05:05:05</sys_updated_on></sys_ux_macroponent></record_update>]]></payload>
+        <payload_hash>-78230604</payload_hash>
+        <record_name>iqm 2</record_name>
+        <reverted_from/>
+        <source>395b4dbf2fc854107a212c6df699b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 05:05:05</sys_created_on>
+        <sys_id>8996ddb72f0c54107a212c6df699b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1717c39f7200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:05:05</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>0596ddb7f10c541027040e2df421208f</update_guid>
+        <update_guid_history>0596ddb7f10c541027040e2df421208f:-78230604,ca2659b7d50c5410d12a3cdd5cf4acd2:-158189515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 05:18:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>0c37d2c4041a4daa88a7765f1a7cd3e4</sys_id>
+        <sys_metadata>462659b72f0c54107a212c6df699b6d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>iqm 2</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_scope_delete display_value="">4fab5431129d41609ec122bc5e95e400</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_462659b72f0c54107a212c6df699b6d1</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_462659b72f0c54107a212c6df699b6d1">8996ddb72f0c54107a212c6df699b68f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 05:18:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
