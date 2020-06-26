@@ -16,7 +16,7 @@
         <schema_version>1.0.0</schema_version>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-28 13:43:06</sys_created_on>
+        <sys_created_on>2020-06-11 13:26:32</sys_created_on>
         <sys_id>0f1a1cb9c0487df4e8e05923bbefbeab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Style Test</sys_name>
@@ -25,6 +25,6 @@
         <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
         <sys_update_name>sys_ux_macroponent_0f1a1cb9c0487df4e8e05923bbefbeab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-28 13:43:06</sys_updated_on>
+        <sys_updated_on>2020-06-11 13:26:32</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

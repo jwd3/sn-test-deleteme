@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-10 17:31:08</sys_created_on>
+        <sys_id>b15a50022fd510107a212c6df699b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_75086_iqm_test_2_test_table.iqm_test_2</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_security_acl display_value="x_75086_iqm_test_2_test_table">71ab41ff2fc854107a212c6df699b6b5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b15a50022fd510107a212c6df699b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-10 17:31:08</sys_updated_on>
+        <sys_user_role display_value="iqm_test_2" name="iqm_test_2">592c49ff2fc854107a212c6df699b614</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</application>
+        <file_path/>
+        <instance_id>0145d06fdbe204d04d2bac44d496194d</instance_id>
+        <instance_name>dev98403</instance_name>
+        <name>sys_security_acl_role_b15a50022fd510107a212c6df699b631</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-10 17:31:08</sys_created_on><sys_id>b15a50022fd510107a212c6df699b631</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_75086_iqm_test_2_test_table.iqm_test_2</sys_name><sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package><sys_policy/><sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope><sys_security_acl display_value="x_75086_iqm_test_2_test_table">71ab41ff2fc854107a212c6df699b6b5</sys_security_acl><sys_update_name>sys_security_acl_role_b15a50022fd510107a212c6df699b631</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-10 17:31:08</sys_updated_on><sys_user_role display_value="iqm_test_2" name="iqm_test_2">592c49ff2fc854107a212c6df699b614</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1444981206</payload_hash>
+        <record_name>x_75086_iqm_test_2_test_table.iqm_test_2</record_name>
+        <reverted_from/>
+        <source>158c82712f5110107a212c6df699b63f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-10 17:31:08</sys_created_on>
+        <sys_id>675ad8ce2f9510107a212c6df699b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1729f491f130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-10 17:31:08</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>af5ad8ce689510100b2855a6037f0758</update_guid>
+        <update_guid_history>af5ad8ce689510100b2855a6037f0758:1444981206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_75086_iqm_test_2_test_table.iqm_test_2">22ab14422fd510107a212c6df699b668</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-10 17:36:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>008eb803b6c94e288272550aa165f290</sys_id>
+        <sys_metadata>b15a50022fd510107a212c6df699b631</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_75086_iqm_test_2_test_table.iqm_test_2</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_parent display_value="x_75086_iqm_test_2_test_table">71ab41ff2fc854107a212c6df699b6b5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_scope_delete display_value="">4fab5431129d41609ec122bc5e95e400</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_b15a50022fd510107a212c6df699b631</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_b15a50022fd510107a212c6df699b631">675ad8ce2f9510107a212c6df699b659</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-10 17:36:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="DELETE">
+        <action display_value="Agent Assist">bd300d7553332300099addeeff7b12fc</action>
+        <action_attributes>{"cxsTableConfig":"0a73bc83c3041300e2fd5cb981d3ae29"}</action_attributes>
+        <action_name>agent_assist_sn_customerservice_case</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action/>
+        <client_conditions>{}</client_conditions>
+        <client_conditions_on_fields/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_type>oob_action</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon display_value="graduation-cap-outline">graduation_cap_outline</design_icon>
+        <enabled>true</enabled>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_position>contexual_sidebar</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon>graduation-cap-outline</icon>
+        <label>Agent Assist</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <model_conditions/>
+        <model_field_required>c363162753232300099addeeff7b12d1,58b056e353232300099addeeff7b12a5,a91975e9534723003eddddeeff7b12e5,518a27c853332300099addeeff7b12d6</model_field_required>
+        <order>100</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions table="sn_customerservice_case">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </record_conditions>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <server_script/>
+        <specificity>21</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 15:58:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>459b1e3c2fa950107a212c6df699b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agent_assist_sn_customerservice_case</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_459b1e3c2fa950107a212c6df699b6e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 15:58:57</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <tooltip>Agent Assist</tooltip>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="DELETE" query="documentkey=459b1e3c2fa950107a212c6df699b6e3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</application>
+        <file_path/>
+        <instance_id>0145d06fdbe204d04d2bac44d496194d</instance_id>
+        <instance_name>dev98403</instance_name>
+        <name>sys_declarative_action_assignment_459b1e3c2fa950107a212c6df699b6e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment"><sys_declarative_action_assignment action="INSERT_OR_UPDATE"><action display_value="Agent Assist">bd300d7553332300099addeeff7b12fc</action><action_attributes>{"cxsTableConfig":"0a73bc83c3041300e2fd5cb981d3ae29"}</action_attributes><action_name>agent_assist_sn_customerservice_case</action_name><action_payload/><action_type>type</action_type><active>true</active><button_type>primary</button_type><client_action/><client_conditions>{}</client_conditions><client_conditions_on_fields/><confirmation_message/><confirmation_required>false</confirmation_required><create_access>false</create_access><declarative_action_type>oob_action</declarative_action_type><delete_access>false</delete_access><dependency/><description/><design_icon display_value="graduation-cap-outline">graduation_cap_outline</design_icon><enabled>true</enabled><field_name/><field_type>glide_date</field_type><form_position>contexual_sidebar</form_position><group/><group_by>false</group_by><icon>graduation-cap-outline</icon><label>Agent Assist</label><model display_value="Form">360935e9534723003eddddeeff7b127d</model><model_conditions/><model_field_required>c363162753232300099addeeff7b12d1,58b056e353232300099addeeff7b12a5,a91975e9534723003eddddeeff7b12e5,518a27c853332300099addeeff7b12d6</model_field_required><order>100</order><payload_map/><read_access>false</read_access><record_conditions table="sn_customerservice_case">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></record_conditions><record_selection_required>false</record_selection_required><required_roles/><requires_value>false</requires_value><script_condition/><server_script/><specificity>21</specificity><sys_class_name>sys_declarative_action_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 15:58:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>459b1e3c2fa950107a212c6df699b6e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>agent_assist_sn_customerservice_case</sys_name><sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package><sys_policy/><sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope><sys_update_name>sys_declarative_action_assignment_459b1e3c2fa950107a212c6df699b6e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 15:58:57</sys_updated_on><table>sn_customerservice_case</table><tooltip>Agent Assist</tooltip><ui_component/><view/><workspace/><write_access>false</write_access></sys_declarative_action_assignment><sys_translated_text action="delete_multiple" query="documentkey=459b1e3c2fa950107a212c6df699b6e3"/></record_update>]]></payload>
+        <payload_hash>-1844774286</payload_hash>
+        <record_name>agent_assist_sn_customerservice_case</record_name>
+        <reverted_from/>
+        <source>158c82712f5110107a212c6df699b63f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 15:58:58</sys_created_on>
+        <sys_id>c59b1e3c2fa950107a212c6df699b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172cd4df64c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 15:58:58</sys_updated_on>
+        <type>Action Assignment</type>
+        <update_guid>019b1e3ca3a95010ab48132ef834bce8</update_guid>
+        <update_guid_history>019b1e3ca3a95010ab48132ef834bce8:-1844774286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 16:26:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_assignment">sys_declarative_action_assignment</sys_db_object>
+        <sys_id>00527eda8bcd44728666a63c8ba24541</sys_id>
+        <sys_metadata>459b1e3c2fa950107a212c6df699b6e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agent_assist_sn_customerservice_case</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_scope_delete display_value="">4fab5431129d41609ec122bc5e95e400</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_assignment_459b1e3c2fa950107a212c6df699b6e3</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_assignment_459b1e3c2fa950107a212c6df699b6e3">c59b1e3c2fa950107a212c6df699b6e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 16:26:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

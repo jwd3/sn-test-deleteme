@@ -9,22 +9,22 @@
         <interactions/>
         <layout>{}</layout>
         <macroponent_dependencies/>
-        <name>Receiver Part Deux</name>
+        <name>Fields Test</name>
         <props>[]</props>
-        <root_component display_value="x-75086-receiver-deux">8c3452749abac6382d6e5057138846b4</root_component>
+        <root_component display_value="x-75086-fields-test">e9724710efa91b4bc26096fbc181bc2a</root_component>
         <root_component_config>{}</root_component_config>
         <schema_version>1.0.0</schema_version>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-11 13:26:31</sys_created_on>
-        <sys_id>f97a8c38f9ae90af6e94c6a0a4177f5a</sys_id>
+        <sys_created_on>2020-06-11 13:26:35</sys_created_on>
+        <sys_id>826b7ef5bf8bfc30af38d7e400c93246</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Receiver Part Deux</sys_name>
+        <sys_name>Fields Test</sys_name>
         <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
         <sys_policy/>
         <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
-        <sys_update_name>sys_ux_macroponent_f97a8c38f9ae90af6e94c6a0a4177f5a</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_826b7ef5bf8bfc30af38d7e400c93246</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-11 13:26:31</sys_updated_on>
+        <sys_updated_on>2020-06-11 13:26:35</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
