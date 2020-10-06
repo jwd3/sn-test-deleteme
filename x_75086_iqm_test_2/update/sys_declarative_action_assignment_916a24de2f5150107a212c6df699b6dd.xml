@@ -55,7 +55,7 @@
         <sys_updated_on>2020-07-23 13:11:39</sys_updated_on>
         <table>x_75086_iqm_test_2_test_table</table>
         <tooltip/>
-        <ui_component display_value="x-75086-field-change-test">b7ff62ab25f82e810d38cc076a020545</ui_component>
+        <ui_component display_value="">b7ff62ab25f82e810d38cc076a020545</ui_component>
         <view/>
         <workspace/>
         <write_access>false</write_access>

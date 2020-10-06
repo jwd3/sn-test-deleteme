@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_registered_scripting_modal">
     <sys_aw_registered_scripting_modal action="INSERT_OR_UPDATE">
         <api>showModal</api>
-        <component display_value="x-75086-modal-post">b2ce7ac48d1cac8efaa9b04c22537db0</component>
+        <component display_value="">b2ce7ac48d1cac8efaa9b04c22537db0</component>
         <public_api>g_modal.x_75086_iqm_test_2.showModal()</public_api>
         <sys_class_name>sys_aw_registered_scripting_modal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
