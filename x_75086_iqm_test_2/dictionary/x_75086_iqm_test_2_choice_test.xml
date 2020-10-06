@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Choice Test" max_length="40" name="x_75086_iqm_test_2_choice_test" sizeclass="0" type="collection">
+        <element choice="1" choice_field="priority" choice_table="incident" label="Choice" max_length="40" name="choice" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

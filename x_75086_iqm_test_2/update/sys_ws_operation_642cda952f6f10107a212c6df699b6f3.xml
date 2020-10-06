@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri>/api/x_75086_iqm_test_2/inquiries</default_operation_uri>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>export</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var fields = getFields();
+	var table = 'x_75086_iqm_test_2_test_table';
+	
+	try {
+		
+		var body = request.body;
+		var input = body.nextEntry();
+
+		if (!gs.nil(input.start_date) && !gs.nil(input.latest_id)) {
+			return new sn_ws_err.BadRequestError('Cannot request both by system ID and timestamp');
+		}
+
+		if (gs.nil(input.start_date) && gs.nil(input.latest_id)) {
+			return new sn_ws_err.BadRequestError('Must request data by either system ID or timestamp');
+		}
+		
+		var results = [];
+		
+		if (!gs.nil(input.start_date)) {
+		
+			var startDateJS = new Date(input);
+			var startDateGDT = new GlideDateTime(startDateJS);
+		}
+		else if (input.latest_id) {
+			
+			var latestInquiry = new GlideRecord(table);
+			var found = latestInquiry.get(input.latest_id);
+			if (!found) {
+				return new sn_ws_err.BadRequestError('no inquiry found for ID: ' + input.latest_id);
+			}
+			
+			var inquiryQuery = new GlideRecord(table);
+			inquiryQuery.addQuery('sys_updated_on', '>', latestInquiry.sys_updated_on);
+			inquiryQuery.query();
+			
+			while (inquiryQuery.next()) {
+				
+				var result = {};
+				for (var i = 0; i < fields.length; i++) {
+					
+					var field = fields[i];
+					
+					var glideElement = inquiryQuery.getElement(fields[i]);
+					var descriptor = glideElement.getED();
+					var internalType = descriptor.getInternalType();
+
+					if (doNotIgnore(field)) {
+						result[field] = ( function (internalType) {
+
+							switch (internalType) {
+
+								case 'glide_date_time':
+								case 'glide_date':
+									return getDateResult(inquiryQuery, field);
+								case 'reference':
+									return getReferenceResult(inquiryQuery, field, glideElement.getReferenceTable());
+								case 'boolean':
+									return (inquiryQuery.getValue(field) == true);
+								case 'journal_list':
+								case 'journal_input':
+									return getJournalResult(inquiryQuery.getUniqueValue(), field);
+									//return glideElement.getJournalEntry(-1);
+								case 'user_input':
+									return inquiryQuery.getValue(field);
+								default:
+									return getValueAndDisplay(inquiryQuery, field);
+							}
+
+						})(internalType);
+					}
+				}
+				
+				results.push(result);
+			}
+		}
+
+	} catch (e) {
+		
+		gs.error('Inquiry Export Service :: service request error:\n\n' + e);
+		return new sn_ws_err.ServiceError();
+	}
+
+	response.setStatus(200);
+	response.setBody(results);
+	
+})(request, response);
+
+
+
+function getValueAndDisplay(gr, field) {
+	
+	return {
+		"displayValue" : gr.getDisplayValue(field),
+		"value" : gr.getValue(field)
+	};
+}
+
+function getReferenceResult(gr, field, table) {
+	
+	var fieldValue = gr.getValue(field);
+	if (gs.nil(fieldValue)) {
+		return '';
+	}
+	
+	return {
+		"link" : gs.getProperty('glide.servlet.uri') + 'api/now/table/' + table + '/' + fieldValue,
+		"displayValue" : gr.getDisplayValue(field),
+		"value" : fieldValue
+	};
+}
+
+function getDateResult(gr, field) {
+	
+	var ms = new GlideDateTime(gr.getValue(field)).getNumericValue();
+	return new Date(ms).toISOString();
+}
+
+function getJournalResult(recordId, field) {
+	
+	var table = 'x_75086_iqm_test_2_test_table';
+	
+	var journal = new GlideRecord('sys_journal_field');
+	journal.addQuery('name', table);
+	journal.addQuery('element', field);
+	journal.addQuery('element_id', recordId);
+	journal.orderBy('sys_created_on');
+	journal.query();
+	
+	var journalEntries = [];
+	while (journal.next()) {
+		journalEntries.push({
+			'created_by' : journal.getValue('sys_created_by'),
+			'created' : journal.getValue('sys_created_on'),
+			'value' : journal.getValue('value')
+		});
+	}
+	
+	return journalEntries;
+}
+
+function doNotIgnore(field) {
+	
+	var ignoredFields = [
+		'variables',
+		'comments_and_work_notes',
+		'rejection_goto',
+		'approval_history',
+		'wf_activity'
+	];
+	
+	return ignoredFields.indexOf(field) == -1;
+}
+
+
+function getFields() {
+	return [
+			"number",
+			"assignment_group",
+			"assigned_to",
+			"sys_id",
+			"parent",
+			"made_sla",
+			"watch_list",
+			"upon_reject",
+			"sys_updated_on",
+			"approval_history",
+			"skills",
+			"some_url",
+			"sys_updated_by",
+			"user_reference",
+			"opened_by",
+			"user_input",
+			"sys_created_on",
+			"sys_domain",
+			"state",
+			"sys_created_by",
+			"knowledge",
+			"order",
+			"closed_at",
+			"cmdb_ci",
+			"delivery_plan",
+			"impact",
+			"contract",
+			"active",
+			"work_notes_list",
+			"business_service",
+			"priority",
+			"sys_domain_path",
+			"time_worked",
+			"rejection_goto",
+			"expected_start",
+			"opened_at",
+			"business_duration",
+			"group_list",
+			"work_end",
+			"approval_set",
+			"wf_activity",
+			"work_notes",
+			"needs_attention",
+			"short_description",
+			"correlation_display",
+			"work_start",
+			"delivery_task",
+			"string",
+			"additional_assignee_list",
+			"description",
+			"calendar_duration",
+			"sys_class_name",
+			"service_offering",
+			"close_notes",
+			"closed_by",
+			"follow_up",
+			"contact_type",
+			"urgency",
+			"company",
+			"reassignment_count",
+			"activity_due",
+			"action_status",
+			"variables",
+			"comments",
+			"sla_due",
+			"approval",
+			"comments_and_work_notes",
+			"due_date",
+			"sys_mod_count",
+			"sys_tags",
+			"url",
+			"cascade_delete",
+			"escalation",
+			"upon_approval",
+			"correlation_id",
+			"location"
+		];
+}]]></operation_script>
+        <operation_uri>/api/x_75086_iqm_test_2/v1/inquiries</operation_uri>
+        <produces>application/json</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-28 15:54:18</sys_created_on>
+        <sys_id>642cda952f6f10107a212c6df699b6f3</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>export</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_ws_operation_642cda952f6f10107a212c6df699b6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 05:08:21</sys_updated_on>
+        <web_service_definition display_value="Inquiries">deeb1a952f6f10107a212c6df699b69b</web_service_definition>
+        <web_service_version display_value="v1">f61cd6952f6f10107a212c6df699b62c</web_service_version>
+    </sys_ws_operation>
+</record_update>

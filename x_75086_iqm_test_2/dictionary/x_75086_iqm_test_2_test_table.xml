@@ -4,6 +4,7 @@
         <element label="List Test" max_length="4000" name="list_test" type="glide_list"/>
         <element label="some url" max_length="1024" name="some_url" type="url"/>
         <element label="String" max_length="40" name="string" type="string"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="User Reference" max_length="32" name="user_reference" reference="sys_user" type="reference"/>
     </element>
 </database>
