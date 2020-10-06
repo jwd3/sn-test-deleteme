@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_registered_scripting_modal">
+    <sys_aw_registered_scripting_modal action="INSERT_OR_UPDATE">
+        <api>showModal</api>
+        <component display_value="x-75086-modal-post">b2ce7ac48d1cac8efaa9b04c22537db0</component>
+        <public_api>g_modal.x_75086_iqm_test_2.showModal()</public_api>
+        <sys_class_name>sys_aw_registered_scripting_modal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-31 04:02:17</sys_created_on>
+        <sys_id>ced9885a2f1650107a212c6df699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_aw_registered_scripting_modal_ced9885a2f1650107a212c6df699b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-31 04:02:17</sys_updated_on>
+    </sys_aw_registered_scripting_modal>
+</record_update>

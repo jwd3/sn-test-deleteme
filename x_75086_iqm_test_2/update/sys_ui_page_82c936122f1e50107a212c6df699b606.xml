@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function ok() {
+	gel('testForm').submit();
+}
+
+function cancel() {
+	// no-op
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_75086_iqm_test_2_workspace_modal_test.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<j2:set var="jvar_hide_response_time" value="true"/>
+	
+	<g:evaluate var="jvar_paramParams" expression="RP.getParameterValue('sysparm_params')"/>
+
+	<g:evaluate var="jvar_params" object="true">
+/*
+		var obj = [
+			{
+				something: 'some 1',
+				somethingelse: 'some 12'
+			},
+			{
+				something: 'some 2',
+				somethingelse: 'some 22'
+			} 
+		];
+*/
+		var obj = JSON.parse(RP.getParameterValue('sysparm_params'));
+		
+		obj;
+	</g:evaluate>
+	
+	<g:evaluate var="jvar_paramsoneline" object="true">
+		JSON.parse(RP.getParameterValue('sysparm_params'));
+	</g:evaluate>
+	
+	
+	<div class="modal-body">
+		<form method="post" action="${gs.getProperty('x_75086_iqm_test_2.form_url')}" id="testForm" name="testForm" target="INQ1234_resources" >
+			<input type="hidden" id="inquiryId" name="inquiryId" value="INQ1234" />
+			<input type="hidden" id="contractId" name="contractId" value="R999888777" />
+			<input type="hidden" id="memberId" name="memberId" value="23212211" />
+			<input type="hidden" id="source" name="source" value="iqm" />
+		</form>
+		<!--
+		<p>Would you like to do something or something else....</p>
+		<p>Sysparm Params: ${sysparm_params}</p>
+		<p>Jvar Params: ${jvar_params}</p>
+		<p>ParamsParams: ${jvar_paramParams}</p>
+
+		<j:forEach items="${jvar_paramsoneline}" var="jvar_param" indexVar="jvar_index">	
+			<p>Here: ${jvar_index} - ${jvar_param.something}</p>
+			<g:evaluate var="jvar_label" expression="jelly.jvar_param.something" jelly="true"/>
+			<g:evaluate var="jvar_name" expression="jelly.jvar_param.somethingelse" jelly="true"/>
+			<p>after eval: ${jvar_label} - ${jvar_name}</p>
+		</j:forEach>
+		-->
+		The following selection. have been made for INquiry Category subcategory type:  Encollment, Contact Information, Address/POhone.  Whould you like to contine to Member360?
+	</div>
+	<div align="right" class="modal-footer">
+		<g:ui_form>
+			<g:dialog_buttons_ok_cancel ok="return ok();" cancel="cancel();" ok_style_class="btn btn-primary" cancel_style_class="cancel_btn_class" />
+		</g:ui_form>
+	</div>
+</j:jelly>]]></html>
+        <name>workspace_modal_test</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-31 16:48:55</sys_created_on>
+        <sys_id>82c936122f1e50107a212c6df699b606</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>workspace_modal_test</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_ui_page_82c936122f1e50107a212c6df699b606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-05 06:01:01</sys_updated_on>
+    </sys_ui_page>
+</record_update>

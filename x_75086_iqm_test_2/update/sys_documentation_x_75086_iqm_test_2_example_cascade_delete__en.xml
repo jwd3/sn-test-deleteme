@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="string" label="String" language="en" table="x_75086_iqm_test_2_test_table">
+    <sys_documentation element="" label="Example Cascade Delete" language="en" table="x_75086_iqm_test_2_example_cascade_delete">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>string</element>
+            <element/>
             <help/>
             <hint/>
-            <label>String</label>
+            <label>Example Cascade Delete</label>
             <language>en</language>
-            <name>x_75086_iqm_test_2_test_table</name>
-            <plural>Strings</plural>
+            <name>x_75086_iqm_test_2_example_cascade_delete</name>
+            <plural>Example Cascade Deletes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-04-15 04:17:22</sys_created_on>
-            <sys_id>a0de864b2fe9d0107a212c6df699b61d</sys_id>
+            <sys_created_on>2020-08-01 17:42:26</sys_created_on>
+            <sys_id>ccaf007e2f1210107a212c6df699b638</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>String</sys_name>
+            <sys_name>Example Cascade Delete</sys_name>
             <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
             <sys_policy/>
             <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
-            <sys_update_name>sys_documentation_x_75086_iqm_test_2_test_table_string_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_75086_iqm_test_2_example_cascade_delete__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-04-15 04:17:22</sys_updated_on>
+            <sys_updated_on>2020-08-01 17:42:26</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

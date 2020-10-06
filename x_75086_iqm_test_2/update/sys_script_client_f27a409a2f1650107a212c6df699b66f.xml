@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>priority</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Show Modal onChange priority</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+	console.log('g_modal is %o', g_modal);
+	console.log('g_aw is %o', g_aw); // https://dev98403.service-now.com/nav_to.do?uri=sys_ui_action.do?sys_id=0bdd499d77773300112f8b51a9106179
+	
+	// https://dev98403.service-now.com/nav_to.do?uri=sys_ui_action.do?sys_id=3de9dfcb0f37330013a831ef68767e80
+	
+	if (g_modal) {
+		
+		var obj = [
+			{
+				something: 'some 1',
+				somethingelse: 'some 12'
+			},
+			{
+				something: 'some 2',
+				somethingelse: 'some 22'
+			}
+		];
+		
+		var params = JSON.stringify(obj);
+		console.log('Sending params %o', params);
+		
+		if (newValue == 1) {
+			g_modal.showFrame({
+				title: 'UI Page Modal Test',
+				//height: '5rem',
+				url: 'x_75086_iqm_test_2_workspace_modal_test.do?sysparm_params=' + params,
+				size: 'md',
+				//autoCloseOn: 'URL_CHANGED',
+				//callback: function (ret) {
+					
+				//}
+			});		
+		}
+		
+		if (newValue == 2) {
+
+			g_modal.x_75086_iqm_test_2.showModal({
+				title: 'Test custom modal',
+				//confirmTitle: 'Yes',
+				//cancelTitle: 'No',
+				size: 'md',
+				//disableConfirmOnLoad: true,
+				disabledPrimaryButtonOnLoad: true,
+				params: {
+					primaryValue: 'THIS IS A PRIMARY VALUE',
+					secondaryItems: {},
+					sourceTable: g_form.getTableName(),
+					sourceId: g_form.getUniqueValue()
+				}
+			}).then(function(result) {
+				console.log('confirm: %o', result);
+				console.log('xx: %o', xx);
+			}, function(error) {
+				console.log('cancel:' + error);
+			});
+		}
+		
+		if (newValue == 3) {
+			g_modal.confirm('Confirmation', 'confirmation Message', function (ret) {
+				
+				console.log('cancel:' + ret);
+				if (ret) {
+					top.window.open("https://www.w3schools.com", '_blank');
+				}
+			});
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-31 04:05:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f27a409a2f1650107a212c6df699b66f</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Show Modal onChange priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_script_client_f27a409a2f1650107a212c6df699b66f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-05 02:08:34</sys_updated_on>
+        <table>x_75086_iqm_test_2_test_table</table>
+        <type>onChange</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

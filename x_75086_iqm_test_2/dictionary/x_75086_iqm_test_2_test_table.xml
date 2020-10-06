@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Test Table" max_length="40" name="x_75086_iqm_test_2_test_table" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Test Table" max_length="40" name="x_75086_iqm_test_2_test_table" sizeclass="3" text_index="true" type="collection">
+        <element label="Cascade Delete" max_length="32" name="cascade_delete" reference="x_75086_iqm_test_2_example_cascade_delete" reference_cascade_rule="delete" type="reference"/>
+        <element label="List Test" max_length="4000" name="list_test" type="glide_list"/>
+        <element label="some url" max_length="1024" name="some_url" type="url"/>
         <element label="String" max_length="40" name="string" type="string"/>
         <element label="User Reference" max_length="32" name="user_reference" reference="sys_user" type="reference"/>
     </element>

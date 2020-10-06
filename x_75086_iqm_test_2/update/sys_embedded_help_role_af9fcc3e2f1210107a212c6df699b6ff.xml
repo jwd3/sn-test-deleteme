@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_75086_iqm_test_2.example_cascade_delete_user" name="x_75086_iqm_test_2.example_cascade_delete_user">a39f8c3e2f1210107a212c6df699b662</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 17:42:25</sys_created_on>
+        <sys_id>af9fcc3e2f1210107a212c6df699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a39f8c3e2f1210107a212c6df699b662</sys_name>
+        <sys_package display_value="IQM Test 2" source="x_75086_iqm_test_2">ff2bc1fb2fc854107a212c6df699b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IQM Test 2">ff2bc1fb2fc854107a212c6df699b690</sys_scope>
+        <sys_update_name>sys_embedded_help_role_af9fcc3e2f1210107a212c6df699b6ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 17:42:25</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
